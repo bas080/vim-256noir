@@ -32,7 +32,7 @@ if has("gui_running") || &t_Co == 256
 	hi NonText	ctermfg=240	guifg=#585858	guibg=#000000
 	hi StatusLineNC	ctermfg=240	guifg=#585858	guibg=#000000
 	hi SpecialComment	ctermfg=245	guifg=#8a8a8a	guibg=#000000
-	hi String	ctermfg=245	guifg=#ff0000	guibg=#000000
+	hi String	ctermfg=196	guifg=#ff0000	guibg=#000000
 	hi Boolean	ctermfg=196	guifg=#ff0000	guibg=#000000
 	hi Debug	ctermfg=250	guifg=#bcbcbc	guibg=#000000
 	hi Delimiter	ctermfg=250	guifg=#bcbcbc	guibg=#000000
@@ -108,7 +108,7 @@ else
 	hi NonText	ctermfg=DarkGray	ctermbg=Black
 	hi StatusLineNC	ctermfg=DarkGray	ctermbg=Black
 	hi SpecialComment	ctermfg=DarkGray	ctermbg=Black
-	hi String	ctermfg=Red	ctermbg=Black
+	hi String	ctermfg=LightRed	ctermbg=Black
 	hi Boolean	ctermfg=LightRed	ctermbg=Black
 	hi Debug	ctermfg=LightGray	ctermbg=Black
 	hi Delimiter	ctermfg=LightGray	ctermbg=Black
